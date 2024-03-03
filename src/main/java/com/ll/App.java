@@ -13,6 +13,8 @@ public class App {
 
         System.out.println("입력한 명령: " + cmd);
 
+        scanner.close();
+
         System.out.println("계산기, 종료!");
     }
 }
